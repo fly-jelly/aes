@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\TestAES.dir/objects.a
+D:\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin\ar.exe cr CMakeFiles\TestAES.dir/objects.a @CMakeFiles\TestAES.dir\objects1.rsp
+D:\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin\x86_64-w64-mingw32-gcc.exe -g   -Wl,--whole-archive CMakeFiles\TestAES.dir/objects.a -Wl,--no-whole-archive  -o TestAES.exe -Wl,--out-implib,libTestAES.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TestAES.dir\linklibs.rsp

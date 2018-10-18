@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../aes/include/aes.h
+stddef.h
+-
+
+E:/CLionProjects/TestAES/main.c
+stdio.h
+-
+memory.h
+-
+wtypesbase.h
+-
+aes.h
+-
+stdbool.h
+-
+
